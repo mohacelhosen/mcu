@@ -3,3 +3,6 @@ body{
     padding: 0;
     background-image: linear-gradient(90deg, cyan, hotpink);
 }
+.menu-section{
+    display: flex;
+}
