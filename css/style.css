@@ -1,12 +1,29 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(90deg, cyan, hotpink);
+    background-image: linear-gradient(90deg, rgba(0, 255, 255,0.75), rgba(255, 105, 180,0.75));
+    color: whitesmoke;
 }
 .logo{
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
 }
 .menu-section{
+    background: rgba(59, 52, 52, 0.849);
+}
+.menu{
     display: flex;
+    justify-content: space-between;
+    margin: 0 12px;
+}
+.menu-section ul{
+    list-style-type: none;
+    display: flex;
+    margin: 8px 0px;
+}
+.menu-section ul li a{
+    margin: 0 8px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 13px;
 }
