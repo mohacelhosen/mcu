@@ -183,3 +183,89 @@ body{
     background-color: rgb(12, 203, 209);
     margin-top: -10px;
 }
+
+/* <------------------- social-media-section --------------> */
+.social-media-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#2f3542;
+    color: aliceblue;
+}
+.media-section-left{
+    margin-right: 30px;
+}
+
+.media-section-right{
+    margin: 35px 0px;
+}
+.media-section-right a{
+    padding:0px 15px ;
+    font-size: 50px;
+    color: aliceblue;
+}
+.media-section-right a:hover{
+    color: yellowgreen;
+}
+
+/* <------------------- Tab Section -----------------------> */
+.tab-section{
+    background: linear-gradient(90deg,  rgba(255, 105, 180,0.45), rgba(0, 255, 255,0.55)),url(/rss/pc.jpg);
+    background-repeat: no-repeat;
+    background-position:inherit;
+    background-size:cover;
+    height: 450px;
+    color: aliceblue;
+    padding: 70px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.left-tab{
+margin: 0px 100px 0px 130px;
+   
+}
+.tab{
+    height: 40px;
+    width: 122px;
+    padding: 40px 40px 50px  40px;
+    background-color: #2f3542;
+    margin-bottom: 3px;
+    display: block;
+    color: aliceblue;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.25s ease-in-out;
+    border-radius: 3px;
+}
+.tab:hover{
+    background: linear-gradient(90deg, cyan, hotpink);
+    
+}
+.right-tab{
+  padding:0px 200px 0px 5px;
+}
+.right-tab h3{
+    margin-top: -5px;
+    padding-bottom: 10px;
+    font-size: 35px;
+}
+.right-tab p{
+    margin-bottom: 5px;
+}
+.download-btn{
+    margin-top:25px;
+    padding:14px 22px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: linear-gradient(90deg, cyan, hotpink);
+    transition: ease-in-out 0.25s;
+}
+.download-btn:hover{
+    box-shadow: 5px 0px 10px yellowgreen;
+}
