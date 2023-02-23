@@ -40,7 +40,29 @@ body{
 }
 .menu-section ul li a:hover{
     cursor: pointer;
-    color:rgba(109, 250, 81, 0.75) ;
+    background: -webkit-linear-gradient(180deg,rgba(0, 255, 255,0.75), lightgreen);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.menu-section ul li a{
+    position: relative;
+   
+}
+.menu-section ul li a::before{
+    content: "";
+    width: 0;
+    height: 3px;
+    background: rgba(153, 205, 50, 0.74);
+    position: absolute;
+    top:110%;
+    left: 0;
+    transition: 0.25s ease-in-out;
+    
+}
+.menu-section ul li a:hover::before{
+    width: 100%;
 }
 
 /* =========== sticky when we scroll =========== */
@@ -51,8 +73,8 @@ body{
 /* <------------------ hero section-----------------------> */
 .hero-section{
     margin-top: 65px;
-    background: linear-gradient(90deg, rgba(95, 189, 134,0.25), rgba(46, 213, 115,0.25)),url(/rss/bc-with-laptop.jpg);
-    background-size:contain;
+    background: linear-gradient(90deg,  rgba(255, 105, 180,0.75), rgba(0, 255, 255,0.75)),url(/rss/laptop-bc.jpg);
+    background-size:cover;
     background-repeat: no-repeat;
     height: 100vh;
     display: flex;
@@ -123,8 +145,8 @@ body{
     color:#222f3e;
 }
 .hero-section-left h3{
-    color: rgba(0, 255, 0, 0.719);
-    padding: 10px 0px;
+    color: whitesmoke;
+    padding: 10px 0px 0px 0px;
 }
 
 .hero-section-left p{
@@ -146,4 +168,18 @@ body{
 }
 .signup:hover{
     box-shadow: 5px 0px 10px yellowgreen;
+}
+
+/* --------------section right ------------------*/
+.media-section-right ul li a img{
+    width: 50px;
+    height: 50px;
+}
+
+.line{
+    display: inline-block;
+    height: 2px;
+    width: 100px;
+    background-color: rgb(12, 203, 209);
+    margin-top: -10px;
 }
