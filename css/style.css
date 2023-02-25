@@ -269,3 +269,15 @@ margin: 0px 100px 0px 130px;
 .download-btn:hover{
     box-shadow: 5px 0px 10px yellowgreen;
 }
+
+/* <-------------------- sublist-section -----------------------> */
+.sublist-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: url("/rss/bg-2.jpg");
+    background-size: cover;
+}
+.left-sub img{
+ height: 350px;
+}
