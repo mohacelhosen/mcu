@@ -285,6 +285,32 @@ margin: 0px 100px 0px 130px;
     background: url("/rss/bg-2.jpg");
     background-size: cover;
 }
-.left-sub img{
+.left-sublist img{
  height: 350px;
+ padding: 30px;
+ margin-left: 30px;
+}
+.right-sublist{
+    padding: 0px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items:self-start;
+}
+.right-sublist h3{
+    color: aliceblue;
+    font-size: 28px;
+    padding-bottom: 25px;
+    
+}
+.right-sublist span{
+    display: inline-block;
+    height: 3px;
+    width: 150px;
+    background: linear-gradient(90deg, cyan, hotpink);
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+.right-sublist p{
+    color: whitesmoke;
+    padding-bottom: 30px;
 }
