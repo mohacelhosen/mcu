@@ -204,7 +204,6 @@ body{
 }
 .media-section-right a{
     padding:0px 15px ;
-
     color: aliceblue;
 }
 .media-icon a i{
@@ -358,4 +357,56 @@ margin: 0px 100px 0px 130px;
     color: antiquewhite;
     padding-right: 30px;
     font-size: 18px;
+}
+
+/* <-------------- footer section --------------------> */
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px 0px 20px 0px;
+    background-color:#222f3e;
+    color: antiquewhite;
+}
+.footer-media-icon{
+    display: flex;
+    margin-bottom: -18px;
+}
+.footer-media-icon .media-icon{
+    width: 80px;
+}
+.footer-media-icon .media-icon a i{
+    font-size: 35px;
+}
+.footer-media-icon a{
+    color: aliceblue;
+}
+.footer-media-icon a:hover{
+    color: yellowgreen;
+    font-size: 40px;
+}
+
+.footer-author{
+    margin-top: -25px;
+    position: relative;
+}
+.footer-author a{
+    font-size: 20px;
+    cursor: pointer;
+    background: -webkit-linear-gradient(180deg,rgba(0, 255, 255,0.75), lightgreen);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.footer-author a::before{
+    content: '';
+    width: 0px;
+    height: 3px;
+    background-color: yellowgreen;
+    margin-top: 25px;
+    left: 100;
+    position: absolute;
+    transition: 0.25s ease-in-out;
+}
+.footer-author a:hover::before {
+    width: 60px;
 }
