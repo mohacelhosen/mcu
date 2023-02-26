@@ -74,7 +74,9 @@ body{
 .hero-section{
     margin-top: 65px;
     background: linear-gradient(90deg,  rgba(255, 105, 180,0.75), rgba(0, 255, 255,0.75)),url(/rss/laptop-bc.jpg);
+    background-position: center;
     background-size:cover;
+    background-origin:border-box;
     background-repeat: no-repeat;
     height: 100vh;
     display: flex;
@@ -217,10 +219,8 @@ body{
 
 /* <------------------- Tab Section -----------------------> */
 .tab-section{
-    background: linear-gradient(90deg,  rgba(255, 105, 180,0.45), rgba(0, 255, 255,0.55)),url(/rss/pc.jpg);
-    background-repeat: no-repeat;
-    background-position:inherit;
-    background-size:cover;
+    background: linear-gradient(90deg,  rgba(255, 105, 180,0.45), rgba(0, 255, 255,0.55)),url(/rss/bg-2.jpg);
+    border: none;
     height: 450px;
     color: aliceblue;
     padding: 70px 0px;
@@ -358,6 +358,63 @@ margin: 0px 100px 0px 130px;
     padding-right: 30px;
     font-size: 18px;
 }
+
+/* <----------------- Contact Section -----------------> */
+.contact-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px;
+    background: linear-gradient(90deg, rgba(0, 255, 255,0.75), rgba(255, 105, 180,0.75)),url(/rss/contact.jpg);
+    height: 70vh;
+    background-position: center;
+    background-size:cover;
+    background-origin:border-box;
+    background-repeat: no-repeat;
+}
+.left-contact-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 30px 0px;
+}
+.left-contact-section h3{
+    font-size: 30px;
+    color: aliceblue;
+}
+.left-contact-section p{
+    font-size: 22px;
+    color: aliceblue;
+}
+.right-contact-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.form-left form , .form-right form{
+    background: linear-gradient(180deg, rgba(0, 255, 255,0.75), rgba(255, 105, 180,0.75));
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 33em;
+
+}
+.form-left form input, .form-right form input{
+    padding: 18px ;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid indigo;
+    margin-bottom: 2px;
+}
+.form-right form textarea::placeholder{
+    color: #222f3e;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
 
 /* <-------------- footer section --------------------> */
 .footer-section{
