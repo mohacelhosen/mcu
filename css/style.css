@@ -296,7 +296,7 @@ margin: 0px 100px 0px 130px;
     flex-direction: column;
     align-items:self-start;
 }
-.right-OOP h3{
+.right-OOP h3, .review-title{
     color: aliceblue;
     font-size: 28px;
     padding-bottom: 25px;
@@ -358,7 +358,77 @@ margin: 0px 100px 0px 130px;
     padding-right: 30px;
     font-size: 18px;
 }
-
+/* <--------------   Review Section ----------------> */
+.review-section{
+    background: linear-gradient(180deg,rgba(2, 0, 1, 0.55), rgba(0, 255, 255,0.35), rgba(255, 105, 180,0.5)), url(/rss/bg-3.jpg);
+}
+.review-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.review-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.review-cart{
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #222f3e;
+    border-radius:5% ;
+    margin: 30px 45px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid greenyellow;
+}
+.student-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px;
+    padding: 0px 10px;
+}
+.student-info h3{
+    padding: 12px;
+    background: -webkit-linear-gradient(180deg,rgba(0, 255, 255,0.75), lightgreen);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.student-info p{
+    padding: 12px;
+    color: lightslategrey;
+    font-size: 18px;
+}
+.review-title{
+    margin-top: 50px;
+}
+.review-line{
+    margin-left: 150px !important;
+}
+.review-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.asadu, .tushar , .reznu{
+    background-position: center;
+    background-size: cover;
+}
+.asadu{
+    background-image: url(/rss/asadu.jpg);
+}
+.tushar{
+    background-image: url(/rss/mohacel.jpg);
+}
+.reznu{
+    background-image: url(/rss/reznu.jpg);
+}
 /* <-------------------- doubt-section ----------> */
 .doubt-section{
     display: flex;
@@ -374,6 +444,13 @@ margin: 0px 100px 0px 130px;
 .doubt-section h2{
     font-size: 30px;
     margin-bottom: 15px;
+}
+.doubt-section span, .review-line{
+    display: inline-block;
+    height: 3px;
+    width: 150px;
+    background: linear-gradient(90deg, cyan, hotpink);
+    margin: -5px 0px 15px 0px;
 }
 .doubt-section p{
     margin-top: 5px;
