@@ -42,8 +42,7 @@ body{
     cursor: pointer;
     background: -webkit-linear-gradient(180deg,rgba(0, 255, 255,0.75), lightgreen);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    
+    -webkit-text-fill-color: transparent; 
 }
 
 .menu-section ul li a{
@@ -181,6 +180,7 @@ body{
     width: 100px;
     background-color: rgb(12, 203, 209);
     margin-top: -10px;
+    
 }
 
 /* <------------------- social-media-section --------------> */
@@ -296,7 +296,7 @@ margin: 0px 100px 0px 130px;
     flex-direction: column;
     align-items:self-start;
 }
-.right-OOP h3, .review-title, .join-title{
+.right-OOP h3, .review-title, .join-title, .price-title{
     color: aliceblue;
     font-size: 28px;
     padding-bottom: 25px;
@@ -399,8 +399,51 @@ margin: 0px 100px 0px 130px;
     font-size: 35px;
 }
 
+/* <-------------------- Price Section ------------> */
+.pricing-section{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(180deg,rgba(2, 0, 1, 0.55), rgba(0, 255, 255,0.35), rgba(255, 105, 180,0.5)), url(/rss/bg-2.jpg);
+}
+.price-model{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
-
+}
+.model{
+    text-align: center;
+    background:#222f3e;
+    color: aliceblue;
+    margin: 20px 50px;
+    padding: 30px;
+    border-radius: 5%;
+}
+.price-sub-title{
+    background: hotpink;
+}
+.model h3{
+    font-size: 22px;
+    border-bottom: 1px solid  lightgreen;
+    margin-top: 5px;
+}
+.price{
+    background: yellowgreen;
+    padding: 50px;
+    margin-bottom: 10px;
+}
+.price h1{
+    font-size: 30px;
+}
+.price h1 span{
+    font-size: 25px;
+}
+.money{
+    font-size: 50px !important;
+    color: #ff8b38;
+}
 
 
 
@@ -498,7 +541,7 @@ margin: 0px 100px 0px 130px;
     font-size: 30px;
     margin-bottom: 15px;
 }
-.doubt-section span, .review-line, .join-line{
+.doubt-section span, .review-line, .join-line, .price-line{
     display: inline-block;
     height: 3px;
     width: 150px;
@@ -621,3 +664,5 @@ margin: 0px 100px 0px 130px;
 .mohacel:hover::before {
     width: 60px;
 }
+
+/* <------------------------Meida Quries ------------------ > */
