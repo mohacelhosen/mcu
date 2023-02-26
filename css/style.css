@@ -277,15 +277,15 @@ margin: 0px 100px 0px 130px;
     box-shadow: 5px 0px 10px yellowgreen;
 }
 
-/* <-------------------- sublist-section -----------------------> */
-.sublist-section{
+/* <-------------------- OOP-section -----------------------> */
+.OOP-section{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background: url("/rss/bg-2.jpg");
     background-size: cover;
 }
-.left-sublist img{
+.left-OOP img{
  height: 350px;
  padding: 30px;
  margin-left: 30px;
@@ -296,13 +296,13 @@ margin: 0px 100px 0px 130px;
     flex-direction: column;
     align-items:self-start;
 }
-.right-sublist h3{
+.right-OOP h3{
     color: aliceblue;
     font-size: 28px;
     padding-bottom: 25px;
     
 }
-.right-sublist span{
+.right-OOP span{
     display: inline-block;
     height: 3px;
     width: 150px;
@@ -310,11 +310,11 @@ margin: 0px 100px 0px 130px;
     margin-top: -15px;
     margin-bottom: 15px;
 }
-.right-sublist p{
+.right-OOP p{
     color: whitesmoke;
     padding-bottom: 30px;
 }
-.right-sublist p a{
+.right-OOP p a{
     font-size: 30px;
     cursor: pointer;
     background: -webkit-linear-gradient(180deg,rgba(0, 255, 255,0.75), lightgreen);
