@@ -296,7 +296,7 @@ margin: 0px 100px 0px 130px;
     flex-direction: column;
     align-items:self-start;
 }
-.right-OOP h3, .review-title{
+.right-OOP h3, .review-title, .join-title{
     color: aliceblue;
     font-size: 28px;
     padding-bottom: 25px;
@@ -358,6 +358,59 @@ margin: 0px 100px 0px 130px;
     padding-right: 30px;
     font-size: 18px;
 }
+
+/* <-------------------------- Join Section --------------> */
+.join-section{
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(90deg,rgba(2, 0, 1, 0.55), rgba(0, 255, 255,0.35)), url(/rss/bg-2.jpg);
+}
+.join{
+    text-align: center;
+    padding: 25px;
+    color: aliceblue;
+    margin-top: -25px;
+}
+.sub-join{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.join-title{
+    margin-top: 15px !important;
+}
+.join h3{
+    font-size: 22px;
+    padding-bottom: 10px;
+    color: yellowgreen;
+}
+.join span i{
+    color: #ff8b38;
+    border: 2px solid #ff8b38;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50px;
+    margin: 24px auto;
+    display: inline-block;
+    font-size: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* <--------------   Review Section ----------------> */
 .review-section{
     background: linear-gradient(180deg,rgba(2, 0, 1, 0.55), rgba(0, 255, 255,0.35), rgba(255, 105, 180,0.5)), url(/rss/bg-3.jpg);
@@ -445,7 +498,7 @@ margin: 0px 100px 0px 130px;
     font-size: 30px;
     margin-bottom: 15px;
 }
-.doubt-section span, .review-line{
+.doubt-section span, .review-line, .join-line{
     display: inline-block;
     height: 3px;
     width: 150px;
