@@ -420,9 +420,10 @@ margin: 0px 100px 0px 130px;
     margin: 20px 50px;
     padding: 30px;
     border-radius: 5%;
+    box-shadow: 5px 5px 20px rgb(211, 207, 209);
 }
 .price-sub-title{
-    background: hotpink;
+    background: rgb(53, 83, 219);
 }
 .model h3{
     font-size: 22px;
@@ -444,7 +445,12 @@ margin: 0px 100px 0px 130px;
     font-size: 50px !important;
     color: #ff8b38;
 }
-
+.price-2{
+    margin-top: -5px;
+}
+.test{
+    font-size: 25px !important;
+}
 
 
 
