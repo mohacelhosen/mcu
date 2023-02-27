@@ -118,7 +118,7 @@ body{
     font-weight: 600;
     margin-top: -5px;
     cursor: pointer;
-    background: linear-gradient(90deg, cyan, hotpink);
+    background: linear-gradient(90deg, cyan, yellowgreen);
     transition: ease-in-out 0.25s;
 }
 .gt-btn a{
