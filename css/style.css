@@ -1,0 +1,681 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+
+    color: #2f3542;
+
+}
+.logo{
+    height: 65px;
+    width: 65px;
+}
+.menu-section{
+    background: black;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition:all ease-in-out 0.25s;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 70px;
+}
+.menu-section ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 23px;
+}
+.menu-section ul li a{
+    margin: 0 8px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.menu-section ul li a:hover{
+    cursor: pointer;
+    background: -webkit-linear-gradient(180deg,rgba(0, 255, 255,0.75), lightgreen);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+.menu-section ul li a{
+    position: relative;
+   
+}
+.menu-section ul li a::before{
+    content: "";
+    width: 0;
+    height: 3px;
+    background: rgba(153, 205, 50, 0.74);
+    position: absolute;
+    top:110%;
+    left: 0;
+    transition: 0.25s ease-in-out;
+    
+}
+.menu-section ul li a:hover::before{
+    width: 100%;
+}
+
+/* =========== sticky when we scroll =========== */
+.my-Sticky-menu{
+    background: rgba(0, 0, 0, 0.692);
+}
+
+/* <------------------ hero section-----------------------> */
+.hero-section{
+    margin-top: 65px;
+    background: linear-gradient(90deg,  rgba(255, 105, 180,0.75), rgba(0, 255, 255,0.75)),url(../rss/laptop-bc.jpg);
+    background-position: center;
+    background-size:cover;
+    background-origin:border-box;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 140px;
+}
+.cart{
+    background-color:#222f3e;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 18px;
+}
+/* ----------hero right section------------ */
+.hero-section-right form{
+    background-color:#222f3e;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-section-right form h3{
+    color: aliceblue;
+    padding: 0px;
+    font-size: 18px;
+}
+.hero-section-right form input{
+    padding: 16px 26px;
+    border: none;
+    border-bottom: 1px solid indigo;
+}
+.gt-btn{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: -5px;
+    cursor: pointer;
+    background: linear-gradient(90deg, cyan, hotpink);
+    transition: ease-in-out 0.25s;
+}
+.gt-btn a{
+    text-decoration: none;
+    color:#222f3e;
+}
+.gt-btn:hover{
+    background-color:cyan;
+}
+
+.gt-btn:focus{
+
+    box-shadow: 5px 0px 10px yellowgreen;
+}
+
+/* ----------hero left section------------ */
+.hero-section-left{
+    margin: 0px 200px 0px 10px;
+    text-align: left;
+}
+.mcu-title{
+    font-size: 2.3rem;
+    font-weight: 800;
+    line-height: 1.5;
+    color:#222f3e;
+    margin-left: -10px;
+}
+.hero-section-left h3{
+    color: whitesmoke;
+    padding: 10px 0px 0px 0px;
+}
+
+.hero-section-left p{
+    color: whitesmoke;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.signup{
+    border: none;
+    padding: 12px 32px;
+    font-weight: bold;
+    border-radius: 5px;
+    background: linear-gradient(90deg, cyan, hotpink);
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+    transition: 0.25s;
+}
+.signup:hover{
+    box-shadow: 5px 0px 10px yellowgreen;
+}
+
+/* --------------section right ------------------*/
+
+.line{
+    display: inline-block;
+    height: 2px;
+    width: 100px;
+    background-color: rgb(12, 203, 209);
+    margin-top: -10px;
+    
+}
+
+/* <------------------- social-media-section --------------> */
+.social-media-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#2f3542;
+    color: aliceblue;
+}
+.media-section-left{
+    margin-right: 30px;
+}
+
+.media-section-right{
+    display: flex;
+    margin: 35px 0px 10px;
+}
+.media-icon {
+    width: 120px;
+    height: 90px;
+    
+}
+.media-section-right a{
+    padding:0px 15px ;
+    color: aliceblue;
+}
+.media-icon a i{
+    font-size: 45px;
+}
+.media-section-right a:hover{
+    color: yellowgreen;
+    font-size: 50px;
+
+}
+
+/* <------------------- Tab Section -----------------------> */
+.tab-section{
+    background: linear-gradient(90deg,  rgba(255, 105, 180,0.45), rgba(0, 255, 255,0.55)),url(../rss/bg-2.jpg);
+    border: none;
+    height: 450px;
+    color: aliceblue;
+    padding: 70px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.left-tab{
+margin: 0px 100px 0px 130px;
+   
+}
+.tab{
+    height: 40px;
+    width: 122px;
+    padding: 40px 40px 50px  40px;
+    background-color: #2f3542;
+    display: block;
+    color: aliceblue;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.25s ease-in-out;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.active{
+    background: linear-gradient(90deg, cyan, hotpink);   
+}
+.right-tab{
+  padding:0px 200px 0px 5px;
+}
+.right-tab h3{
+    margin-top: -5px;
+    padding-bottom: 10px;
+    font-size: 35px;
+}
+.right-tab p{
+    margin-bottom: 5px;
+}
+.download-btn{
+    margin-top:25px;
+    padding:14px 22px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: linear-gradient(90deg, cyan, hotpink);
+    transition: ease-in-out 0.25s;
+}
+.download-btn:hover{
+    box-shadow: 5px 0px 10px yellowgreen;
+}
+
+.left-tab button{
+    margin-bottom: 3px;
+    border-radius: 5px;
+}
+
+
+
+
+/* <-------------------- OOP-section -----------------------> */
+.OOP-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: url("../rss/bg-2.jpg");
+    background-size: cover;
+}
+.left-OOP img{
+ height: 350px;
+ padding: 30px;
+ margin-left: 30px;
+}
+.right-sublist{
+    padding: 0px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items:self-start;
+}
+.right-OOP h3, .review-title, .join-title, .price-title{
+    color: aliceblue;
+    font-size: 28px;
+    padding-bottom: 25px;
+    
+}
+.right-OOP span{
+    display: inline-block;
+    height: 3px;
+    width: 150px;
+    background: linear-gradient(90deg, cyan, hotpink);
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+.right-OOP p{
+    color: whitesmoke;
+    padding-bottom: 30px;
+}
+.right-OOP p a{
+    font-size: 30px;
+    cursor: pointer;
+    background: -webkit-linear-gradient(180deg,rgba(0, 255, 255,0.75), lightgreen);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-right: 20px;
+
+}
+
+/* <----------------- security-section ------------> */
+.security-section{
+    padding-top: 50px;
+    background: linear-gradient(90deg,  rgba(255, 105, 180,0.45), rgba(0, 255, 255,0.55)),url(../rss/bg-2.jpg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+}
+.security-right{
+    margin: 0px 30px;
+    width: 100vw;
+}
+.security-right img{
+    height: 350px;
+    margin: 10px;
+    border: 1px solid greenyellow;
+    border-radius: 3%;
+    box-shadow: 5px 5px 30px cyan;
+}
+.security-letf{
+    padding: 0px 50px;
+}
+.security-letf h3{
+    color: yellowgreen;
+    font-size: 30px;
+    margin-top: -80px;
+    margin-bottom: 20px;
+}
+.security-letf p{
+    color: antiquewhite;
+    padding-right: 30px;
+    font-size: 18px;
+}
+
+/* <-------------------------- Join Section --------------> */
+.join-section{
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(90deg,rgba(2, 0, 1, 0.55), rgba(0, 255, 255,0.35)), url(../rss/bg-2.jpg);
+}
+.join{
+    text-align: center;
+    padding: 25px;
+    color: aliceblue;
+    margin-top: -25px;
+}
+.sub-join{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.join-title{
+    margin-top: 15px !important;
+}
+.join h3{
+    font-size: 22px;
+    padding-bottom: 10px;
+    color: yellowgreen;
+}
+.join span i{
+    color: #ff8b38;
+    border: 2px solid #ff8b38;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50px;
+    margin: 24px auto;
+    display: inline-block;
+    font-size: 35px;
+}
+
+/* <-------------------- Price Section ------------> */
+.pricing-section{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(180deg,rgba(2, 0, 1, 0.55), rgba(0, 255, 255,0.35), rgba(255, 105, 180,0.5)), url(../rss/bg-2.jpg);
+}
+.price-model{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.model{
+    text-align: center;
+    background:#222f3e;
+    color: aliceblue;
+    margin: 20px 50px;
+    padding: 30px;
+    border-radius: 5%;
+    box-shadow: 5px 5px 20px rgb(211, 207, 209);
+}
+.price-sub-title{
+    background: #747d8c;
+}
+.model h3{
+    font-size: 22px;
+    border-bottom: 1px solid  lightgreen;
+    margin-top: 5px;
+}
+.price{
+    background: linear-gradient(90deg, hsla(312, 77%, 86%, 1) 0%, hsla(220, 61%, 79%, 1) 100%);
+    padding: 50px;
+    margin-bottom: 10px;
+}
+.price h1{
+    font-size: 30px;
+}
+.price h1 span{
+    font-size: 25px;
+}
+.money{
+    font-size: 50px !important;
+    color: #ff8b38;
+}
+.price-2{
+    margin-top: -5px;
+}
+.test{
+    font-size: 25px !important;
+}
+
+
+
+
+
+
+
+
+
+/* <--------------   Review Section ----------------> */
+.review-section{
+    background: linear-gradient(180deg,rgba(2, 0, 1, 0.55), rgba(0, 255, 255,0.35), rgba(255, 105, 180,0.5)), url(../rss/bg-3.jpg);
+}
+.review-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.review-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.review-cart{
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #222f3e;
+    border-radius:5% ;
+    margin: 30px 45px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid greenyellow;
+}
+.student-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px;
+    padding: 0px 10px;
+}
+.student-info h3{
+    padding: 12px;
+    background: -webkit-linear-gradient(180deg,rgba(0, 255, 255,0.75), lightgreen);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.student-info p{
+    padding: 12px;
+    color: lightslategrey;
+    font-size: 18px;
+}
+.review-title{
+    margin-top: 50px;
+}
+.review-line{
+    margin-left: 150px !important;
+}
+.review-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.asadu, .tushar , .reznu{
+    background-position: center;
+    background-size: cover;
+}
+.asadu{
+    background-image: url(../rss/asadu.jpg);
+}
+.tushar{
+    background-image: url(../rss/mohacel.jpg);
+}
+.reznu{
+    background-image: url(../rss/reznu.jpg);
+}
+/* <-------------------- doubt-section ----------> */
+.doubt-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(2700deg, rgba(63, 70, 70, 0.75), rgba(66, 22, 44, 0.75)), url(../rss/doubt-2.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    padding: 50px 0px;
+}
+.doubt-section h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.doubt-section span, .review-line, .join-line, .price-line{
+    display: inline-block;
+    height: 3px;
+    width: 150px;
+    background: linear-gradient(90deg, cyan, hotpink);
+    margin: -5px 0px 15px 0px;
+}
+.doubt-section p{
+    margin-top: 5px;
+    padding: 0px 16%;
+    font-size: 18px;
+}
+
+/* <----------------- Contact Section -----------------> */
+.contact-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px;
+    background: linear-gradient(90deg, rgba(0, 255, 255,0.75), rgba(255, 105, 180,0.75)),url(../rss/contact.jpg);
+    height: 70vh;
+    background-position: center;
+    background-size:cover;
+    background-origin:border-box;
+    background-repeat: no-repeat;
+}
+.left-contact-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 30px 0px;
+}
+.left-contact-section h3{
+    font-size: 30px;
+    color: aliceblue;
+}
+.left-contact-section p{
+    font-size: 22px;
+    color: aliceblue;
+}
+.right-contact-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.form-left form , .form-right form{
+    background: linear-gradient(180deg, rgba(0, 255, 255,0.75), rgba(255, 105, 180,0.75));
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 33em;
+
+}
+.form-left form input, .form-right form input{
+    padding: 18px ;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid indigo;
+    margin-bottom: 2px;
+}
+.form-right form textarea::placeholder{
+    color: #222f3e;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+
+/* <-------------- footer section --------------------> */
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px 0px 20px 0px;
+    background-color:#222f3e;
+    color: antiquewhite;
+}
+.footer-media-icon{
+    display: flex;
+    margin-bottom: -18px;
+}
+.footer-media-icon .media-icon{
+    width: 80px;
+}
+.footer-media-icon .media-icon a i{
+    font-size: 35px;
+}
+.footer-media-icon a{
+    color: aliceblue;
+}
+.footer-media-icon a:hover{
+    color: yellowgreen;
+    font-size: 40px;
+}
+
+.footer-author{
+    margin-top: -25px;
+    position: relative;
+}
+
+.mohacel{
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    background: -webkit-linear-gradient(180deg,rgba(0, 255, 255,0.75), lightgreen);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.mohacel::before{
+    content: '';
+    width: 0px;
+    height: 3px;
+    background-color: yellowgreen;
+    margin-top: 25px;
+    left: 100;
+    position: absolute;
+    transition: 0.25s ease-in-out;
+}
+.mohacel:hover::before {
+    width: 60px;
+}
+
+/* <------------------------Meida Quries ------------------ > */
