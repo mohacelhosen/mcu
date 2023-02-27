@@ -72,7 +72,7 @@ body{
 /* <------------------ hero section-----------------------> */
 .hero-section{
     margin-top: 65px;
-    background: linear-gradient(90deg,  rgba(255, 105, 180,0.75), rgba(0, 255, 255,0.75)),url(../rss/laptop-bc.jpg);
+    background: linear-gradient(90deg,rgba(65, 3, 33, 0.55), rgba(0, 255, 255,0.55)),url(../rss/laptop-bc.jpg);
     background-position: center;
     background-size:cover;
     background-origin:border-box;
@@ -143,7 +143,7 @@ body{
     font-size: 2.3rem;
     font-weight: 800;
     line-height: 1.5;
-    color:#222f3e;
+    color:aliceblue;
     margin-left: -10px;
 }
 .hero-section-left h3{
@@ -162,7 +162,7 @@ body{
     padding: 12px 32px;
     font-weight: bold;
     border-radius: 5px;
-    background: linear-gradient(90deg, cyan, hotpink);
+    background: linear-gradient(90deg, cyan, yellowgreen);
     cursor: pointer;
     margin-top: 10px;
     font-size: 16px;
@@ -247,7 +247,7 @@ margin: 0px 100px 0px 130px;
     text-decoration: none;
 }
 .active{
-    background: linear-gradient(90deg, cyan, hotpink);   
+    background: linear-gradient(90deg, rgba(0, 255, 255, 0.808), yellowgreen);  
 }
 .right-tab{
   padding:0px 200px 0px 5px;
@@ -269,7 +269,7 @@ margin: 0px 100px 0px 130px;
     border-radius: 5px;
     text-transform: uppercase;
     cursor: pointer;
-    background: linear-gradient(90deg, cyan, hotpink);
+    background: linear-gradient(90deg, cyan, yellowgreen);
     transition: ease-in-out 0.25s;
 }
 .download-btn:hover{
@@ -460,13 +460,6 @@ margin: 0px 100px 0px 130px;
 }
 
 
-
-
-
-
-
-
-
 /* <--------------   Review Section ----------------> */
 .review-section{
     background: linear-gradient(180deg,rgba(2, 0, 1, 0.55), rgba(0, 255, 255,0.35), rgba(255, 105, 180,0.5)), url(../rss/bg-3.jpg);
@@ -573,7 +566,7 @@ margin: 0px 100px 0px 130px;
     flex-direction: column;
     align-items: center;
     padding: 30px 0px;
-    background: linear-gradient(90deg, rgba(0, 255, 255,0.75), rgba(255, 105, 180,0.75)),url(../rss/contact.jpg);
+    background: linear-gradient(90deg, rgba(0, 255, 255,0.25), rgba(255, 105, 180,0.35)),url(../rss/contact.jpg);
     height: 70vh;
     background-position: center;
     background-size:cover;
