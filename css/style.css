@@ -72,7 +72,7 @@ body{
 /* <------------------ hero section-----------------------> */
 .hero-section{
     margin-top: 65px;
-    background: linear-gradient(90deg,  rgba(255, 105, 180,0.75), rgba(0, 255, 255,0.75)),url(/rss/laptop-bc.jpg);
+    background: linear-gradient(90deg,  rgba(255, 105, 180,0.75), rgba(0, 255, 255,0.75)),url(../rss/laptop-bc.jpg);
     background-position: center;
     background-size:cover;
     background-origin:border-box;
@@ -219,7 +219,7 @@ body{
 
 /* <------------------- Tab Section -----------------------> */
 .tab-section{
-    background: linear-gradient(90deg,  rgba(255, 105, 180,0.45), rgba(0, 255, 255,0.55)),url(/rss/bg-2.jpg);
+    background: linear-gradient(90deg,  rgba(255, 105, 180,0.45), rgba(0, 255, 255,0.55)),url(../rss/bg-2.jpg);
     border: none;
     height: 450px;
     color: aliceblue;
@@ -289,7 +289,7 @@ margin: 0px 100px 0px 130px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background: url("/rss/bg-2.jpg");
+    background: url("../rss/bg-2.jpg");
     background-size: cover;
 }
 .left-OOP img{
@@ -334,7 +334,7 @@ margin: 0px 100px 0px 130px;
 /* <----------------- security-section ------------> */
 .security-section{
     padding-top: 50px;
-    background: linear-gradient(90deg,  rgba(255, 105, 180,0.45), rgba(0, 255, 255,0.55)),url(/rss/bg-2.jpg);
+    background: linear-gradient(90deg,  rgba(255, 105, 180,0.45), rgba(0, 255, 255,0.55)),url(../rss/bg-2.jpg);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -372,7 +372,7 @@ margin: 0px 100px 0px 130px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(90deg,rgba(2, 0, 1, 0.55), rgba(0, 255, 255,0.35)), url(/rss/bg-2.jpg);
+    background: linear-gradient(90deg,rgba(2, 0, 1, 0.55), rgba(0, 255, 255,0.35)), url(../rss/bg-2.jpg);
 }
 .join{
     text-align: center;
@@ -412,7 +412,7 @@ margin: 0px 100px 0px 130px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(180deg,rgba(2, 0, 1, 0.55), rgba(0, 255, 255,0.35), rgba(255, 105, 180,0.5)), url(/rss/bg-2.jpg);
+    background: linear-gradient(180deg,rgba(2, 0, 1, 0.55), rgba(0, 255, 255,0.35), rgba(255, 105, 180,0.5)), url(../rss/bg-2.jpg);
 }
 .price-model{
     display: flex;
@@ -469,7 +469,7 @@ margin: 0px 100px 0px 130px;
 
 /* <--------------   Review Section ----------------> */
 .review-section{
-    background: linear-gradient(180deg,rgba(2, 0, 1, 0.55), rgba(0, 255, 255,0.35), rgba(255, 105, 180,0.5)), url(/rss/bg-3.jpg);
+    background: linear-gradient(180deg,rgba(2, 0, 1, 0.55), rgba(0, 255, 255,0.35), rgba(255, 105, 180,0.5)), url(../rss/bg-3.jpg);
 }
 .review-container{
     display: flex;
@@ -530,20 +530,20 @@ margin: 0px 100px 0px 130px;
     background-size: cover;
 }
 .asadu{
-    background-image: url(/rss/asadu.jpg);
+    background-image: url(../rss/asadu.jpg);
 }
 .tushar{
-    background-image: url(/rss/mohacel.jpg);
+    background-image: url(../rss/mohacel.jpg);
 }
 .reznu{
-    background-image: url(/rss/reznu.jpg);
+    background-image: url(../rss/reznu.jpg);
 }
 /* <-------------------- doubt-section ----------> */
 .doubt-section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(2700deg, rgba(63, 70, 70, 0.75), rgba(66, 22, 44, 0.75)), url(/rss/doubt-2.jpg);
+    background: linear-gradient(2700deg, rgba(63, 70, 70, 0.75), rgba(66, 22, 44, 0.75)), url(../rss/doubt-2.jpg);
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
@@ -573,7 +573,7 @@ margin: 0px 100px 0px 130px;
     flex-direction: column;
     align-items: center;
     padding: 30px 0px;
-    background: linear-gradient(90deg, rgba(0, 255, 255,0.75), rgba(255, 105, 180,0.75)),url(/rss/contact.jpg);
+    background: linear-gradient(90deg, rgba(0, 255, 255,0.75), rgba(255, 105, 180,0.75)),url(../rss/contact.jpg);
     height: 70vh;
     background-position: center;
     background-size:cover;
