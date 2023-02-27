@@ -237,7 +237,6 @@ margin: 0px 100px 0px 130px;
     width: 122px;
     padding: 40px 40px 50px  40px;
     background-color: #2f3542;
-    margin-bottom: 3px;
     display: block;
     color: aliceblue;
     font-weight: 700;
@@ -245,10 +244,10 @@ margin: 0px 100px 0px 130px;
     cursor: pointer;
     transition: 0.25s ease-in-out;
     border-radius: 3px;
+    text-decoration: none;
 }
-.tab:hover{
-    background: linear-gradient(90deg, cyan, hotpink);
-    
+.active{
+    background: linear-gradient(90deg, cyan, hotpink);   
 }
 .right-tab{
   padding:0px 200px 0px 5px;
@@ -276,6 +275,14 @@ margin: 0px 100px 0px 130px;
 .download-btn:hover{
     box-shadow: 5px 0px 10px yellowgreen;
 }
+
+.left-tab button{
+    margin-bottom: 3px;
+    border-radius: 5px;
+}
+
+
+
 
 /* <-------------------- OOP-section -----------------------> */
 .OOP-section{
@@ -423,7 +430,7 @@ margin: 0px 100px 0px 130px;
     box-shadow: 5px 5px 20px rgb(211, 207, 209);
 }
 .price-sub-title{
-    background: rgb(53, 83, 219);
+    background: #747d8c;
 }
 .model h3{
     font-size: 22px;
@@ -431,7 +438,7 @@ margin: 0px 100px 0px 130px;
     margin-top: 5px;
 }
 .price{
-    background: yellowgreen;
+    background: linear-gradient(90deg, hsla(312, 77%, 86%, 1) 0%, hsla(220, 61%, 79%, 1) 100%);
     padding: 50px;
     margin-bottom: 10px;
 }
